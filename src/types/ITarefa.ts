@@ -1,4 +1,8 @@
-export type StatusTarefa = "afazer" | "andamento" | "concluida" | "atrasada";
+export type StatusTarefa = 
+  | "afazer" 
+  | "andamento" 
+  | "concluida" 
+  | "atrasada";
 
 export type DiaSemana =
   | "Segunda"
